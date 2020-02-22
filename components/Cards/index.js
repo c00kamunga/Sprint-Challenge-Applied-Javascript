@@ -17,3 +17,16 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
+
+
+const theRealCardsContainer = document.querySelector('.cards-container');
+
+
+function cardContainer(card){
+    const cardContainer = document.createElement('.div');
+    const headline = document.createElement('div');
+    const author = document.createElement('div');
+    const imgContainer = document.createElement('div');
+    const image = document.createElement('img');
+    const spanButton = document.createElement('span');
+}
