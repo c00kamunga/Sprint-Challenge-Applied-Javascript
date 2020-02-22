@@ -47,6 +47,8 @@ A4. The reason we would want to convert a nodelist into an array is because it'l
 
 5. What is a component?
 
+A5. A component is basically a portion of a webpage. A portion of a webpage such as the navigation bar, login section, side bar are all portions that together would make up a webpage. These components are building blocks that consist of HTML, CSS and JS and are reusable as well.
+
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
