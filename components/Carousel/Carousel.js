@@ -17,3 +17,19 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+const theCarouselContainer = document.querySelector('.carousel-container');
+
+
+
+function carouselComponent(horses){
+const carouselContainer = document.createElement('div');
+const leftButton = document.createElement('div');
+const image = document.createElement('img');
+const rightButton = document.createElement('div');
+
+
+carouselContainer.classList.add('carousel');
+leftButton.classList.add('left-button');
+rightButton.classList.add('right-button');
+}
