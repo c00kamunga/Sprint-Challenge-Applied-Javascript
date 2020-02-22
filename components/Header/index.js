@@ -16,4 +16,10 @@ function Header() {
     const dateButton = document.createElement('span');
     const lambdaTimes = document.createElement('h1');
     const tempButton = document.createElement('span');
+
+    headerContainenr.classList.add('header');
+    dateButton.classList.add('date');
+    tempButton.classList.add('temp');
+
+    
 }
