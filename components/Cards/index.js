@@ -36,4 +36,16 @@ function cardContainer(card){
     headline.classList.add('headline');
     author.classList.add('author');
     imgContainer.classList.add('img-container');
+
+
+    headline.textContent = card.headline;
+    spanButton.textContent = card.authorName;
+    image.setAttribute('src', card.authorPhoto);
+    imgContainer.appendChild(image);
+    author.appendChild(imgContainer);
+    author.appendChild(spanButton);
+    cardContainer.appendChild(headline);
+    cardContainer.appendChild(author);
+    theRealCardsContainer.appendChild(cardContainer);
 }
+
