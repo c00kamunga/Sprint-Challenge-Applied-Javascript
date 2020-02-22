@@ -39,6 +39,8 @@ A2. An event is basically any interaction that from the user to the site such as
 
 3. What is an event listener?
 
+A3. An event listener is basically a callback that occurs when a specific element triggers based off of a specific event.
+
 4. Why would we convert a NodeList into an Array?
 
 5. What is a component?
