@@ -21,5 +21,9 @@ function Header() {
     dateButton.classList.add('date');
     tempButton.classList.add('temp');
 
+    dateButton.textContent = 'March 28, 2019';
+    lambdaTimes.textContent = 'Lambda Times';
+    tempButton.textContent = '98°';
+
     
 }
