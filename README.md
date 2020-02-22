@@ -30,7 +30,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+A1. The DOM is acronym for "Document Object Model" which basically an object representation of the HTML elements that exist on a webpage. It
+gives us an interface that we can use to interact with as well as manipulate the page in its structure, content, and stling.
+
 2. What is an event?
+
+
 
 3. What is an event listener?
 
