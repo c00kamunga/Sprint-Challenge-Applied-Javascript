@@ -35,7 +35,7 @@ gives us an interface that we can use to interact with as well as manipulate the
 
 2. What is an event?
 
-
+A2. An event is basically any interaction that from the user to the site such as a mouse click, keyboard press, moving of the mouse, and even scrolling of the page.
 
 3. What is an event listener?
 
