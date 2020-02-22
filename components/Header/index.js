@@ -12,12 +12,12 @@
 const theHeaderContainer = document.querySelector('.header-container')
 
 function Header() {
-    const headerContainenr = document.createElement('div');
+    const headerContainer = document.createElement('div');
     const dateButton = document.createElement('span');
     const lambdaTimes = document.createElement('h1');
     const tempButton = document.createElement('span');
 
-    headerContainenr.classList.add('header');
+    headerContainer.classList.add('header');
     dateButton.classList.add('date');
     tempButton.classList.add('temp');
 
@@ -25,5 +25,11 @@ function Header() {
     lambdaTimes.textContent = 'Lambda Times';
     tempButton.textContent = '98°';
 
-    
+    headerContainer.appendChild(dateButton)
+    headerContainer.appendChild(lambdaTimes)
+    headerContainer.appendChild(tempButton)
+
+    return headerContainer
 }
+
+theHeaderContainer.appendChild(Header());
