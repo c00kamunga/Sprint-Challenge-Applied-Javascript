@@ -43,6 +43,8 @@ A3. An event listener is basically a callback that occurs when a specific elemen
 
 4. Why would we convert a NodeList into an Array?
 
+A4. The reason we would want to convert a nodelist into an array is because it'll allow us to perform methods such as map, forEach, reduce, and filter etc.
+
 5. What is a component?
 
 ### Git Set up
