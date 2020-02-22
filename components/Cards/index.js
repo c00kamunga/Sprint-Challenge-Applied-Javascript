@@ -29,4 +29,11 @@ function cardContainer(card){
     const imgContainer = document.createElement('div');
     const image = document.createElement('img');
     const spanButton = document.createElement('span');
+
+
+
+    cardContainer.classList.add('card');
+    headline.classList.add('headline');
+    author.classList.add('author');
+    imgContainer.classList.add('img-container');
 }
