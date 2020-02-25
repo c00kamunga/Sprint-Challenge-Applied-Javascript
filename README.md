@@ -30,26 +30,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+A1. The DOM is acronym for "Document Object Model" which basically an object representation of the HTML elements that exist on a webpage. It
+gives us an interface that we can use to interact with as well as manipulate the page in its structure, content, and stling.
+
 2. What is an event?
+
+A2. An event is basically any interaction that from the user to the site such as a mouse click, keyboard press, moving of the mouse, and even scrolling of the page.
 
 3. What is an event listener?
 
+A3. An event listener is basically a callback that occurs when a specific element triggers based off of a specific event.
+
 4. Why would we convert a NodeList into an Array?
+
+A4. The reason we would want to convert a nodelist into an array is because it'll allow us to perform methods such as map, forEach, reduce, and filter etc.
 
 5. What is a component?
 
+A5. A component is basically a portion of a webpage. A portion of a webpage such as the navigation bar, login section, side bar are all portions that together would make up a webpage. These components are building blocks that consist of HTML, CSS and JS and are reusable as well.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
 * [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
@@ -68,3 +79,6 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
+
+
+(((((test commit)))))
